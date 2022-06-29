@@ -1,0 +1,98 @@
+{
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate": "2022-06-27T16:28:35.331-00:00",
+	"Sources": [
+		{
+			"Packages": [
+				{
+					"PackageIdentifier": "7zip.7zip"
+				},
+				{
+					"PackageIdentifier": "Audacity.Audacity"
+				},
+				{
+					"PackageIdentifier": "TimKosse.FileZilla.Client"
+				},
+				{
+					"PackageIdentifier": "GIMP.GIMP"
+				},
+				{
+					"PackageIdentifier": "Git.Git"
+				},
+				{
+					"PackageIdentifier": "GitHub.GitHubDesktop"
+				},
+				{
+					"PackageIdentifier": "Google.Chrome"
+				},
+				{
+					"PackageIdentifier": "Google.Drive"
+				},
+				{
+					"PackageIdentifier": "AdoptOpenJDK.OpenJDK.8"
+				},
+				{
+					"PackageIdentifier": "KDE.Krita"
+				},
+				{
+					"PackageIdentifier": "KeePassXCTeam.KeePassXC"
+				},
+				{
+					"PackageIdentifier": "TheDocumentFoundation.LibreOffice"
+				},
+				{
+					"PackageIdentifier": "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier": "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier": "9NBLGGH5R558" // Microsoft TODO
+				},
+				{
+					"PackageIdentifier": "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier": "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier": "Mozilla.Firefox"
+				},
+				{
+					"PackageIdentifier": "Mozilla.Thunderbird"
+				},
+				{
+					"PackageIdentifier": "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier": "Python.Python.3"
+				},
+				{
+					"PackageIdentifier": "TeamSpeakSystems.TeamSpeakClient"
+				},
+				{
+					"PackageIdentifier": "Telegram.TelegramDesktop"
+				},
+				{
+					"PackageIdentifier": "TortoiseGit.TortoiseGit"
+				},
+				{
+					"PackageIdentifier": "VB-Audio.Voicemeeter.Banana"
+				},
+				{
+					"PackageIdentifier": "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier": "OlegShparber.Zeal"
+				},
+			],
+			"SourceDetails": {
+				"Argument": "https://winget.azureedge.net/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion": "1.2.11601"
+}
