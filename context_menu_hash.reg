@@ -1,0 +1,50 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT*shellGetFileHash]
+"MUIVerb"="Hash"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell1SHA1]
+"MUIVerb"="SHA1"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell1SHA1command]
+@="powershell.exe -noexit get-filehash -literalpath '%1' -algorithm SHA1 | format-list"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell2SHA256]
+"MUIVerb"="SHA256"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell2SHA256command]
+@="powershell.exe -noexit get-filehash -literalpath '%1' -algorithm SHA256 | format-list"
+
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell3SHA384]
+"MUIVerb"="SHA384"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell3SHA384command]
+@="powershell.exe -noexit get-filehash -literalpath '%1' -algorithm SHA384 | format-list"
+
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell4SHA512]
+"MUIVerb"="SHA512"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell4SHA512command]
+@="powershell.exe -noexit get-filehash -literalpath '%1' -algorithm SHA512 | format-list"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell5MACTripleDES]
+"MUIVerb"="MACTripleDES"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell5MACTripleDEScommand]
+@="powershell.exe -noexit get-filehash -literalpath '%1' -algorithm MACTripleDES | format-list"
+
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell6MD5]
+"MUIVerb"="MD5"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell6MD5command]
+@="powershell.exe -noexit get-filehash -literalpath '%1' -algorithm MD5 | format-list"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell7RIPEMD160]
+"MUIVerb"="RIPEMD160"
+
+[HKEY_CLASSES_ROOT*shellGetFileHashshell7RIPEMD160command]
+@="powershell.exe -noexit get-filehash -literalpath '%1' -algorithm RIPEMD160 | format-list"
