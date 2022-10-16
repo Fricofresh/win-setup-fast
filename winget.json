@@ -1,8 +1,15 @@
 {
 	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
 	"CreationDate": "2022-06-27T16:28:35.331-00:00",
+	"title": "winget Packages List for Fricofresh",
 	"Sources": [
 		{
+			"SourceDetails": {
+				"Argument": "https://winget.azureedge.net/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
+			},
 			"Packages": [
 				{
 					"PackageIdentifier": "7zip.7zip"
@@ -32,6 +39,9 @@
 					"PackageIdentifier": "AdoptOpenJDK.OpenJDK.8"
 				},
 				{
+					"PackageIdentifier": "AdoptOpenJDK.OpenJDK.11"
+				},
+				{
 					"PackageIdentifier": "KDE.Krita"
 				},
 				{
@@ -44,10 +54,19 @@
 					"PackageIdentifier": "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier": "Microsoft.PowerToys"
+					"PackageIdentifier": "OBSProject.OBSStudio"
+				},
+				{
+					"PackageIdentifier": "Valve.Steam"
 				},
 				{
 					"PackageIdentifier": "9NBLGGH5R558" // Microsoft TODO
+				},
+				{
+					"PackageIdentifier": "9PGCV4V3BK4W" // DevToys
+				},
+				{
+					"PackageIdentifier": "9P7KNL5RWT25" // Sysinternals Suite
 				},
 				{
 					"PackageIdentifier": "Microsoft.VisualStudioCode"
@@ -84,14 +103,8 @@
 				},
 				{
 					"PackageIdentifier": "OlegShparber.Zeal"
-				},
-			],
-			"SourceDetails": {
-				"Argument": "https://winget.azureedge.net/cache",
-				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
-				"Name": "winget",
-				"Type": "Microsoft.PreIndexed.Package"
-			}
+				}
+			]
 		}
 	],
 	"WinGetVersion": "1.2.11601"
