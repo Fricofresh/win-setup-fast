@@ -18,31 +18,16 @@
 					"PackageIdentifier": "Audacity.Audacity"
 				},
 				{
-					"PackageIdentifier": "TimKosse.FileZilla.Client"
-				},
-				{
 					"PackageIdentifier": "GIMP.GIMP"
 				},
 				{
 					"PackageIdentifier": "Git.Git"
 				},
 				{
-					"PackageIdentifier": "GitHub.GitHubDesktop"
-				},
-				{
 					"PackageIdentifier": "Google.Chrome"
 				},
 				{
 					"PackageIdentifier": "Google.Drive"
-				},
-				{
-					"PackageIdentifier": "AdoptOpenJDK.OpenJDK.8"
-				},
-				{
-					"PackageIdentifier": "AdoptOpenJDK.OpenJDK.11"
-				},
-				{
-					"PackageIdentifier": "KDE.Krita"
 				},
 				{
 					"PackageIdentifier": "KeePassXCTeam.KeePassXC"
